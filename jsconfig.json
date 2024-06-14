@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ]
+      // Add more aliases as needed for your project structure
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
